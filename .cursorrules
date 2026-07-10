@@ -1,0 +1,11 @@
+# Project Environment & Conventions
+
+## Tech Stack
+- Frontend: React, Next.js, Tailwind CSS
+- Toolchain: Node.js (LTS)
+
+## Code Style & Rules
+- Use functional components with Hooks.
+- Prefer descriptive variable names.
+- Keep components modular, reusable, and responsive.
+- Adhere to semantic HTML structure.

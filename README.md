@@ -15,9 +15,13 @@ The application is designed to demonstrate:
 
 > **Status:** Early-stage repository. Core application scaffolding and feature implementation are in progress.
 
+
+
 ## Features
 
 > Placeholder sections — replace with concrete feature descriptions as they are implemented.
+
+
 
 ### Core Features
 
@@ -25,20 +29,28 @@ The application is designed to demonstrate:
 - [ ] **Feature 2** — Brief description of a secondary workflow or interaction.
 - [ ] **Feature 3** — Brief description of a supporting utility or enhancement.
 
+
+
 ### AI-Enhanced Capabilities
 
 - [ ] **AI Integration** — Describe how AI is used (e.g., recommendations, generation, analysis).
 - [ ] **User Interaction** — Describe the primary AI-driven user flow.
 - [ ] **Feedback & Refinement** — Describe how users review or iterate on AI output.
 
+
+
 ## Tech Stack
 
-| Layer       | Technology                          |
-| ----------- | ----------------------------------- |
-| Framework   | [Next.js](https://nextjs.org/)      |
-| UI Library  | [React](https://react.dev/)         |
-| Styling     | [Tailwind CSS](https://tailwindcss.com/) |
-| Runtime     | Node.js (LTS)                       |
+
+| Layer      | Technology                               |
+| ---------- | ---------------------------------------- |
+| Framework  | [Next.js](https://nextjs.org/)           |
+| UI Library | [React](https://react.dev/)              |
+| Styling    | [Tailwind CSS](https://tailwindcss.com/) |
+| Runtime    | Node.js (LTS)                            |
+
+
+
 
 ## Prerequisites
 
@@ -48,46 +60,35 @@ Before you begin, ensure the following are installed:
 - **npm**, **yarn**, **pnpm**, or **bun** — package manager of your choice
 - **Git** — for cloning and version control
 
+
+
 ## Installation
 
 1. **Clone the repository**
-
-   ```bash
+  ```bash
    git clone https://github.com/<your-username>/<repository-name>.git
    cd Assignment01
-   ```
-
+  ```
 2. **Install dependencies**
-
-   ```bash
+  ```bash
    npm install
-   ```
-
-   > Use `yarn`, `pnpm`, or `bun` if that is your preferred package manager.
-
+  ```
+  > Use `yarn`, `pnpm`, or `bun` if that is your preferred package manager.
 3. **Configure environment variables**
-
-   Create a `.env.local` file in the project root:
-
-   ```env
-   # Add required environment variables here
-   # NEXT_PUBLIC_API_URL=
-   # OPENAI_API_KEY=
-   ```
-
+  Create a `.env.local` file in the project root:
 4. **Start the development server**
-
-   ```bash
+  ```bash
    npm run dev
-   ```
-
+  ```
 5. **Open the application**
+  Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-   Visit [http://localhost:3000](http://localhost:3000) in your browser.
+
 
 ## Available Scripts
 
 > Update this table once `package.json` is added to the project.
+
 
 | Command         | Description                          |
 | --------------- | ------------------------------------ |
@@ -95,6 +96,9 @@ Before you begin, ensure the following are installed:
 | `npm run build` | Build the application for production |
 | `npm run start` | Run the production build locally     |
 | `npm run lint`  | Run ESLint checks                    |
+
+
+
 
 ## Project Structure
 
@@ -111,6 +115,8 @@ Assignment01/
 └── README.md
 ```
 
+
+
 ## Development Guidelines
 
 - Use functional components with React Hooks.
@@ -119,12 +125,16 @@ Assignment01/
 - Prefer descriptive variable and component names.
 - See `.cursorrules` for project-specific conventions.
 
+
+
 ## Contributing
 
 1. Create a feature branch from `main`.
 2. Make focused, well-scoped changes.
 3. Test locally before opening a pull request.
 4. Submit a PR with a clear summary of changes.
+
+
 
 ## License
 
